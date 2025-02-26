@@ -15,34 +15,33 @@ header{
 div {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 figure {
-   display: flex
+   display: flex;
 }
 
 figure img{
     border: solid red 5px;
-    margin: 50px;
+    margin: 20px;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
 }
 
 figcaption{
     flex-direction: column;
     display: flex;
-    flex: 3;
-    margin-top: 30px;
-    border: solid;
+    flex-shrink: 1;
 }
 
 aside {
     margin-top: 30px;
     display: flex;
-    flex:;
-    flex-wrap: wrap;
     flex-direction: column;
     background-color: #97BF04;
     padding: 20px;
-   border: solid black 1px;
-
+   flex-shrink: 1.25;
 }
 
 footer{
