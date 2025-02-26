@@ -12,27 +12,44 @@ header{
     justify-content: center;
 }
 
+div {
+    display: flex;
+    flex-direction: row;
+}
+figure {
+   display: flex
+}
+
 figure img{
-    border:solid red 5px;
-   display: flex;
-   margin: 50px 25px 0px 0px;
-   flex-direction: row;
-   justify-content: flex-start;
+    border: solid red 5px;
+    margin: 50px;
 }
 
 figcaption{
     flex-direction: column;
     display: flex;
-    padding-top: 25px;
-    flex:1;
-   
+    flex: 3;
+    margin-top: 30px;
+    border: solid;
 }
- 
+
 aside {
+    margin-top: 30px;
     display: flex;
-    flex: ;
+    flex:;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: #97BF04;
     padding: 20px;
-    color: black;
+   border: solid black 1px;
+
+}
+
+footer{
+    margin-top: 1rem;
+    background-color: #d9043d;
+    color: white;
+    padding: 3rem;
+   text-align: center;
+
 }
