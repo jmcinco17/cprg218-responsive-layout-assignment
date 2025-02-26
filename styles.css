@@ -1,0 +1,12 @@
+*{box-sizing: border-box;
+}
+
+header{
+    background-color: #120323;
+    color: #97BF04;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
